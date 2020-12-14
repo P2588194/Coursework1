@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <meta charset="utf-8">
+  <title>Back to the Future</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--I have used css on both the about and cast pages to change the background to the colour black. I tested the few other colours but eventually decided on black as I believe, coupled with the gold text, that it is the look that best suits the film-->
+
+<!--At the top of the page I have embedded a png image of the logo for the film which displays the films title. I have also added a menu so the person viewing the webpage can navigate between the about page and the cast page. If I was to make this webpage again I think I would try to work on making the menu look better by using css to change it's layout for font, but I am still happy with how it looks here-->
+  <body>
+    <img src="img/BTTF-LOGOS.png" alt="movie logo" width="100%" />
+  <nav>
+<a href="aboutpage.html"> About </a>
+  </nav>
+
+<nav>
+  <a href="castpage.html" > Cast </a>
+</nav>
+
+<style>
+p {
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+}
+
+</style>
+
+<!--Here I chose to change the style of the text on the page so that the font would appear bolder as well as changing the text allignment so that it text appear on the center of the page. I did this as I believe this makes the layout of the page look a lot better for the person viewing it. I also changed the colour of the text to gold as I think this stands out well against the black background and also matches with the films logo-->
+<p font style="color: gold">In this Sci-fi comedy adventure, director Robert Zemeckis invites you on the journey of a lifetime. High school student Marty McFly is an average 1985 highschool student, with dreams of becoming a rockstar. That is until he is acidentally sent 30 years into the past by a time travelling Delorean built by mad scientist Dr. Emmett Brown.
+Now with only one chance of returning to his own time and his very existance in danger, will Marty find his way Back to the Future?</p>
+
+<!--Here I have embedded video into my web pages by adding the trailer for the film. I have also added the video controls to allow the person viewing the webpage to play the trailer, as well letting them be able to pause it, rewind it and fast forward through it. I have changed the width of the video to 100% so that it fits the webpage and I've added a poster image to video. This has been done so the video won't appear on the webpage in it's first frame which would then slightly ruin the look of the webpage by just being a black screen. The video I have embedded is an MP4 file, should this not work in the browser the viewer is using I have added a link to download the video so that they can view it that way, as well as adding a message to let them know that their browser doesn't support the support the video element.-->
+<video controls width="100%" poster="img/poster3.jpg">
+  <source src="vid/trailer.mp4" type="video/mp4" />
+  <p> Sorry your browser does not support the video element. Click <a href="vid/trailer.mp4">here</a> to download.</p>
+</video>
+<footerfont style="color: gold">Created by Matt Fairbrass P2588194 Multimedia Course Work 1</footer>
+  </body>
+
+
+</html>
